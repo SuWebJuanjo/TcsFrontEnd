@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>		
+	<meta charset="UTF-8">
+	<title>JuanJoNegris</title>
+	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16"/>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="css/styleSheet.css">
+	<!--Font awesome-->
+	<script src="https://kit.fontawesome.com/cd47566906.js" crossorigin="anonymous"></script>
+	<!--Awesoe Alert-->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<figure class="logo">
+					<img src="images/logo_juanjo.png" alt="Logo Juan José Negris">
+			</figure>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="#innerlink1">Portafolio</a>
+					</li>
+					<li>
+						<a href="#innerlink2">Experiencia</a>
+					</li>
+					<li>
+						<a href="#innerlink3">Trabajemos Juntos</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="wrapper">
+			<h1>Hola mundo, Soy <strong>Juanjo Negris</strong>, <br>
+			y éste, mi portfolio de <strong> tecnología y <br> desarrollo web</strong></h1>
+			<img src="images/provisoria_trabajando.png" class="hero_image">
+		</div>
+	</section>
+
+	<section id="portafolio" class="portfolio">
+			<div class="wrapper">
+			<h2 id="innerlink1">Proyectos destacados</h2>
+			<article class="project">
+				<div class="project_details">
+					<h3 class="project_title">Desarrollo Web</h3>
+					<h6 class="project_subtitle">Nombre del proyecto</h6>
+					<p class="date"><small><strong>Fecha:</strong> xxxx - xxxxx</small></p>
+					<p class="project_description_title"><small><strong>Cliente: xxxxxxx</strong><small></p>
+					<p class="project_description"><small><strong>Participe:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi laborum beatae vitae debitis numquam, nostrum molestiae qui neque natus maiores, itaque earum, esse dignissimos laudantium provident recusandae voluptate consequuntur adipisci.</small></p>
+					<p class="project_link"><i class="fab fa-connectdevelop" style="font-size: 2em;"></i><a href="#">Visite el sitio</a></p>
+				</div>
+				<figure class="project_image_container">
+					<img class="project_image" style="width: 500px"	src="images/imagen_prueva.jpg" alt="">
+				</figure>
+			</article>
+		</div>
+	</section>
+
+	<h2 id="innerlink2" class="title_event">Más sobre mi experiencia</h2>
+	
+	<section id="eventos" class="event_list">
+		<div class="wrapper">
+			<article class="event">
+				<figure class="event_imageContainer">
+				  <img class="image_event" src="images/rdicion.jpg" width="400px" alt="">
+				</figure>
+				<div class="event_details">
+					<h3 class="event_title">Algo para escribir en este lugar</h3>
+					<p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ea, officiis aliquam? Facere nostrum dolor, quod adipisci! Dolorem, perferendis fugit laboriosam, molestiae sint iure vel. Molestiae, ratione earum odio asperiores!</p>
+					<a class="event_url" href="">Ver lo que tengo para mostrar</a>
+				</div>
+			</article>
+		</div>
+	</section>
+
+	<section id="eventos1" class="event_list">
+		<div class="wrapper">
+			<article class="event">
+				<figure class="event_imageContainer">
+				  <img class="image_event" src="images/2ndPic.jpg" width="400px" alt="">
+				</figure>
+				<div class="event_details">
+					<h3 class="event_title">Algo para escribir en este lugar</h3>
+					<p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ea, officiis aliquam? Facere nostrum dolor, quod adipisci! Dolorem, perferendis fugit laboriosam, molestiae sint iure vel. Molestiae, ratione earum odio asperiores!</p>
+					<a class="event_url" href="">Ver lo que tengo para mostrar</a>
+				</div>
+			</article>
+		</div>
+	</section>
+	<section id="eventos2" class="event_list">
+		<div class="wrapper">
+			<article class="event">
+				<figure class="event_imageContainer">
+				  <img class="image_event" src="images/3.jpg" width="400px" alt="">
+				</figure>
+				<div class="event_details">
+					<h3 class="event_title">Algo para escribir en este lugar</h3>
+					<p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ea, officiis aliquam? Facere nostrum dolor, quod adipisci! Dolorem, perferendis fugit laboriosam, molestiae sint iure vel. Molestiae, ratione earum odio asperiores!</p>
+					<a class="event_url" href="">Ver lo que tengo para mostrar</a>
+				</div>
+			</article>
+		</div>
+	</section>
+
+	<section id="eventos3" class="event_list">
+		<div class="wrapper">
+			<article class="event">
+				<figure class="event_imageContainer">
+				  <img class="image_event" src="images/edicion2.jpg" width="400px" alt="">
+				</figure>
+				<div class="event_details">
+					<h3 class="event_title">Algo para escribir en este lugar</h3>
+					<p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ea, officiis aliquam? Facere nostrum dolor, quod adipisci! Dolorem, perferendis fugit laboriosam, molestiae sint iure vel. Molestiae, ratione earum odio asperiores!</p>
+					<a class="event_url" href="">Ver lo que tengo para mostrar</a>
+				</div>
+			</article>
+		</div>
+	</section>
+
+	<button class="Cboton" id="showMoreEvents" onclick="showEvents()">Mostrar más proyectos</button>
+	<button class="Cboton" id="showLessEvents" onclick="noShowEvents()">Mostrar menos proyectos</button>
+
+	<section id="innerlink3" class="formulario">
+		<div class="wrapper">
+			<form action="POST" class="form">
+				<!--<label for="si tiene el mismo nombre que el id del imput hace focus cuando hago mouse over">Déjame tu email</label>-->
+				<h3 class="title_form">¿Creamos algo juntos?</h3>
+				<input class="form_email" type="text" placeholder="Déjame tu email" >
+				<input type="submit" value="Texto del Botón">
+				<button class="Cboton">Enviar</button>
+			</form>
+			<div class="social">
+				<a href="#" class="social_link twitter"></a>
+				<a href="#" class="social_link facebook"></a>
+				<a href="#" class="social_link linkedin"></a>
+				<a href="#" class="social_link github"></a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="left"><p>Proyecto Personal Desarrollo Web Online 2019 - TCS Front End Final Proyect <img src="images/logo_juanjo.png" width="80" alt="Mini Logo JuanJoNegris"> </p>
+			</div>
+			
+			<div class="right">
+			<p>Designed with <\3 by <a href="https://twitter.com/juanjonegris?lang=es">@juanjonegris</a></p>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+<!--Areas del proyecto: desarrollo web -->
+
+</body>
+</html>
+
